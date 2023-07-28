@@ -1,3 +1,8 @@
+body{
+  /*background image radial gradient*/
+  background: radial-gradient(circle, #43b0d1, #212b6e);
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,154 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 600;
+  display: flex;
+  color: rgb(239, 239, 242);
+  justify-content: center;
+  align-items: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: 220px;
+}
+
+.intro{
+  color: aliceblue;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.form-style-3{
+  width: 50%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.submit{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 46%;
+  bottom: 50px;
+  transition-duration: 0.5s;
+}
+
+.submit:hover{
+  background-color: #2d6b2f;
+}
+
+.range {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  resize: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #212b6e;
+}
+
+.range:hover{
+  background-color: #282c34;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-container{
+  margin-bottom: 100px;
+}
+
+.my-container .instruction ul.curved-round li{
+  margin-bottom: 10px;
+}
+
+.my-container .instruction ul.curved-round li:hover{
+  color: #212b6e;
+}
+
+.textarea{
+  resize: none;
+}
+
+.range-1,
+.range-2 {
+  width: 6vh;
+  height: 4vh;
+  display: inline-block;
+  border-radius: 2px;
+  resize: none;
+}
+
+.range-1, 
+.range-2 {
+  margin-right: 5px; 
+}
+
+.range-2 {
+  margin-left: 5px;
+}
+
+.high {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(255, 98, 0);
+  text-shadow: 2px 2px 8px #282c34;
+}
+
+.low {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(241, 230, 24);
+  text-shadow: 2px 2px 8px #282c34;
+}
+
+.instruction {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 8px #282c34;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+ul li::marker {
+  content: '✅ ';
+  font-size: 20px;
+}
+
+.footer{
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: #3f3f3f;
+  position: fixed;
+  text-align: center;
+  justify-items: center;
 }
